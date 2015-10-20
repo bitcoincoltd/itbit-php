@@ -1,5 +1,5 @@
 Title: itbit-php Classes
-Version: 1.0
+Version: 1.0.1
 Release Date: 2015-04-06
 Author: David Barnes (david.barnes (at) bitcoin.co.th
 

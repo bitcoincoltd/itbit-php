@@ -1,6 +1,6 @@
 <?php
 ###############################################
-# 	itbit-php Class 1.0
+# 	itbit-php Class 1.0.1
 # 	Author: David Barnes
 # 	Contact: david.barnes (at) bitcoin.co.th
 # 	Copyright (c) 2015 Bitcoin Co. Ltd.
@@ -22,7 +22,6 @@ class itbit{
 		// Generate a nonce
 		$mt = explode(' ', microtime());
 		$nonce = $mt[1].substr($mt[0], 2, 6);
-		$nonce = 1;
 		
 		// Use current timestamp
 		$timestamp = time() * 1000;
